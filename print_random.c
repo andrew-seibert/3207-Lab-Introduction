@@ -13,8 +13,7 @@ int main()
 
 	puts("Today's random word: ");
 	for(a=0;a<7;a++) {
-		char outChar = randChar();
-		putchar( outChar );
+		putchar( randChar() );
 	}
 	putchar('\n');
 
